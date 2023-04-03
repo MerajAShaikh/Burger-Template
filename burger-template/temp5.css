@@ -1,36 +1,45 @@
-:root{
-    --red:#f64b3c ;
-    --white:#fff;
-    --font-family1:"Montserrat";
-   --font-family2:"Archivo";
-   --font-family3:"calistoga";
+:root {
+    --red: #f64b3c;
+    --white: #fff;
+    --font-family1: "Montserrat";
+    --font-family2: "Archivo";
+    --font-family3: "calistoga";
 }
 
-img{
-	max-width:100%;
+img {
+    max-width: 100%;
 }
-.navbar{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9999999999999999) 85%, rgba(0,0,0,0.9999999999999999) 100%);
+
+.navbar {
+    padding-top:50px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9999999999999999) 85%, rgba(0, 0, 0, 0.9999999999999999) 100%);
 }
 
 header {
     position: absolute;
     width: 100%;
 }
-.logo{
-    width:100px;
-    height:95px;
+
+.logo {
+    width: 100px;
+    height: 95px;
 }
+
 header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background: transparent !important;
 }
 
 .navbar-nav .nav-link {
-    color:var(--white)!important;
+    color: var(--white) !important;
     font-size: 20px;
     font-weight: 500;
     padding: 0px 30px !important;
 }
+
+.padding {
+    padding: 100px 0px;
+}
+
 section.banner-section {
     background: url("images/bg-1.png") no-repeat;
     background-size: cover;
@@ -41,9 +50,9 @@ section.banner-section {
 }
 
 .banner-text h1 {
-    width:491px;
+    width: 491px;
     font-size: 63px;
-    color:var(--white);
+    color: var(--white);
     font-weight: 700;
     line-height: 74px;
 }
@@ -53,9 +62,9 @@ section.banner-section {
 }
 
 .banner-text p {
-    font-size:18px;
-    font-weight:500;
-    color:var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white);
     margin: 42px 0px;
 }
 
@@ -68,9 +77,11 @@ section.banner-section {
     border-radius: 50px;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:focus {
-    background:var(--red) !important;
-    border-color:var(--red) !important;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+    background: var(--red) !important;
+    border-color: var(--red) !important;
 }
 
 .btn-primary:hover {
@@ -85,31 +96,37 @@ section.banner-section {
     background-repeat: no-repeat;
     padding: 100px 0px;
 }
-.chef-text{
+
+.chef-text {
     max-width: 650px;
     margin: 0px auto 40px;
 }
-.section-title{
-    font-size:50px;
-    font-weight:700;
-    color:var(--red);
+
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--red);
 }
-.our-chef p{
-    font-size:20px;
-    color:var(--red);
+
+.our-chef p {
+    font-size: 20px;
+    color: var(--red);
 }
+
 .our-chef .description {
     width: 1126px;
     font-size: 25px;
-    color:var(--red);
+    color: var(--red);
     font-weight: 400;
     font-family: var(--font-family1);
     text-align: center;
 }
-.chef-detail{
-    color:var(--red);
+
+.chef-detail {
+    color: var(--red);
     margin-top: 30px;
 }
+
 .chef-detail h3 {
     text-transform: uppercase;
     font-weight: 700;
@@ -119,29 +136,30 @@ section.banner-section {
 
 .our-chef .title {
     font-size: 64px;
-    color:var(--red);
+    color: var(--red);
     font-weight: 700;
-    font-family:var(--font-family2);
+    font-family: var(--font-family2);
     text-align: center;
 }
 
-.chef-media img{
-border-radius: 50%;
+.chef-media img {
+    border-radius: 50%;
 }
 
-.best-burger{
-    background:var(--red);
-    padding: 100px 0px;
+.best-burger {
+    background: var(--red);
 }
-.best-burger .section-title{
-    color:var(--white);
+
+.best-burger .section-title {
+    color: var(--white);
 }
-.best-burger-img img{
+
+.best-burger-img img {
     border-radius: 50%;
 }
 
 .best-burger-text {
-    color:var(--white);
+    color: var(--white);
     max-width: 500px;
     margin-left: auto;
 }
@@ -154,22 +172,25 @@ p {
     font-size: 18px;
     font-weight: 500;
 }
-.btn-white{
-    background:var(--white);
-    color:var(--red);
-}
-.big-burger{
-    background-image: url("images/bg-3.png");
-    background-size: cover;
-    padding: 100px 0px;
-}
-.big-burger h2{
-    color:var(--red);
+
+.btn-white {
+    background: var(--white);
+    color: var(--red);
 }
 
-.big-burger p{
-    color:var(--red);
+.big-burger {
+    background-image: url("images/bg-3.png");
+    background-size: cover;
 }
+
+.big-burger h2 {
+    color: var(--red);
+}
+
+.big-burger p {
+    color: var(--red);
+}
+
 .big-burger-text {
     max-width: 500px;
 }
@@ -178,29 +199,34 @@ p {
     margin: 40px 0px;
 }
 
-.big-burger-img img{
+.big-burger-img img {
     border-radius: 50%;
 }
-.statistics{
-    background:var(--red);
+
+.statistics {
+    background: var(--red);
     text-align: center;
-    color:var(--white);
-    padding: 100px 0px;
+    color: var(--white);
 }
-section.statistics h2{
-    color:var(--white);
-    margin-bottom:20px;
-}
-section.statistics p {
-    text-align: center;
-    margin-bottom:20px;
-    color:var(--white);
-}
-.statistics-text p{
-    width:500px;
+
+section.statistics h2 {
+    color: var(--white);
     margin-bottom: 20px;
 }
-.stat-box{
+
+section.statistics p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.statistics-text p {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stat-box {
     width: 270px;
     height: 270px;
     border: 5px solid var(--white);
@@ -208,14 +234,14 @@ section.statistics p {
     border-radius: 50%;
 }
 
-.stat-box h3{
+.stat-box h3 {
     font-size: 71px;
     font-weight: 700;
     margin-bottom: 0;
     line-height: 66px;
 }
 
-.stat-box p{
+.stat-box p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 600;
@@ -225,11 +251,10 @@ section.popular-package {
     background: url("images/bg-5.png") no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 100px 0px;
 }
 
 .price-box {
-    background:var(--white);
+    background: var(--white);
     padding: 40px;
     max-width: 346px;
     margin: 0px auto;
@@ -239,9 +264,11 @@ section.popular-package {
 .price-box h3 {
     font-size: 31px;
     font-weight: 700;
+    margin-bottom: 1.5rem;
 }
 
 .price-box h4 {
+    margin-top: 1.5rem;
     font-weight: 700;
 }
 
@@ -254,19 +281,18 @@ section.popular-package {
 section.review-section {
     background: url("images/bg-4.png") no-repeat;
     background-size: cover;
-    padding: 200px 0px;
     text-align: center;
     color: var(--white);
 }
 
 .review-box p {
-    width: 800px;
-    margin-left:40px;
+    margin-left: 40px;
     font-size: 30px;
     color: var(--white);
     font-weight: 700;
     font-family: var(--font-family2);
-    text-align: center;}
+    text-align: center;
+}
 
 .review-box {
     max-width: 900px;
@@ -277,26 +303,31 @@ section.review-section {
     font-size: 45px;
     color: #ffffff;
     font-weight: 400;
-    font-family:var(--font-family3);
+    font-family: var(--font-family3);
     text-align: center;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
-section.subscribe{
-    padding: 100px 0px;
+section.subscribe {
     background: url("images/bg-6.png") no-repeat;
     background-size: cover;
 }
-.subscribe-text p,h2{
-    color:var(--red);
-    margin-bottom:50px;
+
+.subscribe-text p,
+h2 {
+    color: var(--red);
+    margin-bottom: 50px;
 }
-.subscribe-text p{
-    width:450px;
-}
-.subscribe-text h2{
+
+.subscribe-text p {
+    width: 50%;
     text-align: center;
 }
+
+.subscribe-text h2 {
+    text-align: center;
+}
+
 .form-col {
     max-width: 600px;
     margin: 0px auto;
@@ -312,7 +343,7 @@ section.subscribe{
     right: -18px;
 }
 
-.form-control{
+.form-control {
     height: 50px;
     border-radius: 50px;
     padding-right: 186px;
@@ -322,11 +353,15 @@ section.subscribe{
 footer {
     background: #222222;
     padding: 100px 0px;
-    color:var(--white);
+    color: var(--white);
 }
 
-footer ul  li a {
-    color:var(--white);
+footer h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer ul li a {
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -341,10 +376,15 @@ footer ul li {
 
 .social ul li {
     display: inline-block;
+    padding-right: 10px;
 }
 
 footer ul {
     padding: 0;
+}
+
+footer p {
+    width: 76%;
 }
 
 .social ul li a {
@@ -357,214 +397,224 @@ footer ul {
     line-height: 35px;
     border-radius: 50%;
 }
+
 .fa-facebook:hover {
-    color:rgb(0,110,255);
-  }
-  .fa-twitter:hover {
-    color:rgb(86,164,243);
-  }
-  .fa-instagram:hover {
-    color:rgb(255,0,191);
-  }
-  .fa-whatsapp:hover{
-    color:rgb(73, 230, 73);
-  }
-@media (max-width:991px){
+    color: rgb(0, 110, 255);
+}
+
+.fa-twitter:hover {
+    color: rgb(86, 164, 243);
+}
+
+.fa-instagram:hover {
+    color: rgb(255, 0, 191);
+}
+
+.fa-whatsapp:hover {
+    color: rgb(73, 230, 73);
+}
+
+@media (max-width:991px) {
     .navbar-light .navbar-toggler {
-        background:var(--white);
+        background: var(--white);
     }
-    
+
     .navbar-collapse {
-        background:var(--red);
+        background: var(--red);
         padding: 20px 20px;
     }
-    
+
     .navbar-nav .nav-link {
         margin: 13px 0px;
-    }	
+    }
+
     .btn {
         min-width: 120px;
         font-size: 12px;
     }
-    
+
     .stat-box {
         width: 200px;
         height: 200px;
         padding: 40px 20px;
     }
-    
+
     .stat-box h3 {
         font-size: 51px;
     }
-    
+
     .stat-box p {
         font-size: 17px;
     }
-    
+
+    .statistics-text p {
+        width: 94%;
+    }
+
     .review-box p {
         font-size: 20px;
-        margin-left:0;
-        width:696px;
+        margin-left: 0;
     }
-    .review-box h3{
-        font-size:30px;
-    }	
-    .subscribe-text p{
-        width:351px;
+
+    .review-box h3 {
+        font-size: 30px;
     }
-    .subscribe .btn{
-        padding:15px 24px;
+
+    .subscribe-text p {
+        width: 94%;
     }
+
+    .subscribe-text p,
+    h2 {
+        margin-bottom: 20px;
     }
-    
-    @media (max-width:767px){
-        .logo{
-            margin-left:10px;
-        }
+
+    .subscribe .btn {
+        padding: 15px 24px;
+    }
+}
+
+@media (max-width:767px) {
+    .logo {
+        margin-left: 10px;
+    }
+
     .banner-text h1 {
         font-size: 37px;
         line-height: 46px;
         max-width: 280px;
         margin: 0px auto;
     }
-    
+
     .banner-text {
         text-align: center;
     }
-    
+
     .banner-text p {
         margin: 29px 0px;
     }
-    
-    section.banner{
+
+    section.banner {
         min-height: auto;
         padding: 171px 0px 69px;
     }
-    
+
     .card-box {
         margin-bottom: 30px;
     }
-    
-    section.our-chef{
+
+    section.our-chef {
         padding: 50px 0px 20px;
     }
-    
-    section.best-burger{
+
+    section.best-burger {
         padding: 50px 0px 20px;
     }
-    
-    .best-burger-text{
+
+    .best-burger-text {
         text-align: center;
         margin-bottom: 30px;
     }
-    
-    .shop-text p{
+
+    .best-burger-text p {
         margin: 10px 0px 20px;
     }
-    
+
     .best-burger-img {
         max-width: 300px;
         margin: 0px auto 30px;
     }
-    
+
     .big-burger-text {
         text-align: center;
         margin-bottom: 30px;
     }
-    
-    .big-burger-text p {
-        margin: 10px 0px 18px;
+
+    .big-burger-text p, h2{
+        margin: 20px 0px 18px;
     }
-    
+    .big-burger{
+        padding:50px 0px 20px;
+    }
     .big-burger-img {
         max-width: 300px;
         margin: 0px auto;
     }
-    
+
     section.big-burger-section {
         padding: 50px 0px 20px;
     }
-    
-    section.statistics{
+
+    section.statistics {
         padding: 50px 0px 30px;
     }
-    .statistics-text p{
-        width:351px;
-    }
-    .stat-box{
+
+    .stat-box {
         margin: 0px auto 30px;
     }
-    
+
+    .statistics-text p {
+        width: 94%;
+    }
+
     section.popular-package {
         padding: 50px 0px 30px;
     }
-    
+
     .price-box {
         margin-bottom: 30px;
     }
-    
-    section.review{
+
+    section.review {
         padding: 50px 0px 50px;
     }
-    .review-box p{
-        width:516px;
-    }
+
     .intro-main {
         margin-bottom: 14px;
     }
-    
+
     section.subscribe {
         padding: 50px 0px 50px;
     }
-    
+
+    .subscribe-text p,
+    h2 {
+        margin-bottom: 20px;
+    }
+
     .form-col button.btn.btn-primary {
         height: 50px;
     }
-    
+
     .form-col {
         max-width: 500px;
     }
-    
+
     .form-col .form-group {
         width: 90% !important;
     }
-    
+
     .input-group {
         width: auto;
     }
-    
+
     .form-col button.btn.btn-primary {
         right: 0;
     }
-    
+
     footer {
         padding: 50px 0px 30px;
     }
-    
+
     .footer-col {
         margin-bottom: 30px;
     }
-    
-    h2.section-title{
+
+    h2.section-title {
         font-size: 30px;
-    }
-    
-    h2 {
-        font-size: 30px;
-    }	
-    }
-    
-    @media (max-width:356px){
-        .review-box p{
-            width:256px;
-        }
-        .subscribe-text p{
-            width:230px;
-        }
     }
 
-    @media (max-width:412px){
-        .review-box p{
-            width:388px;
-        }
+    h2 {
+        font-size: 30px;
     }
+}
